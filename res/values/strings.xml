@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICA Counselor</string>
+    <string name="action_settings">Settings</string>
+    <string name="previous_detail"><u>Previous Detail</u></string>
+    <color name="bg_color">#142c57</color>
+    <color name="pre_detail_header">#0000FF</color>
+    
+</resources>

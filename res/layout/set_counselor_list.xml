@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Save" 
+        android:background="@drawable/blue_button"
+        android:textColor="#ffffff" 
+        android:onClick="saveCounselor"/>
+
+    <TextView
+        android:id="@+id/textViewCounselorHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textSize="30sp"
+        style="@style/textStyle"
+        android:text="Save Counselor" 
+        android:textColor="#FFFFFF"/>
+
+    <Spinner
+        android:id="@+id/SpinnerUserInfo"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/gradientbg" />
+
+</RelativeLayout>
